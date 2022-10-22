@@ -1,0 +1,49 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/cat"))()
+local Window = Library.CreateLib("aori.kitten", "Ocean")
+    -- MAIN
+    local Main = Window:NewTab("Main")
+    local MainSection = Main:NewSection("Main")
+
+
+    MainSection:NewButton("Silent Aim", "Bitch on my dick", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Stefanuk12/ROBLOX/master/Games/Da%20Hood/SilentAimAimLock.lua"))()
+    end)
+
+    MainSection:NewButton("Cam Lock", "Tracer lock legit", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/ebay-rblx/cacadoofixedbyme/main/kittencracked'))()
+    end)
+
+    MainSection:NewButton("Anti Lock", "Anti Bad aim", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/chrsschrs/antilock/main/chrss"))()
+    end)
+
+    MainSection:NewButton("Op Lock", "OP", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/amberware/Cloudware/main/protected.lua", true))() 
+    end)
+
+    --Other
+    local Other = Window:NewTab("Other")
+    local OtherSection = Other:NewSection("Other")
+
+
+    MainSection:NewButton("Headless/Korblox", "For Broke", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/RobloxHackerProLuaStuff/avatar-editor-thing/main/headless.lua"))()
+    end)
+
+    MainSection:NewButton("Animation Changer", "Animation Changer", function()
+        loadstring(game:HttpGet("https://gitlab.com/Tsuniox/lua-stuff/-/raw/master/R15GUI.lua"))()
+    end)
+
+    MainSection:NewButton("Op Lock", "OP", function()
+        loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\73\110\118\111\111\107\101\114\49\49\47\79\117\116\102\105\116\47\109\97\105\110\47\79\117\116\102\105\116\67\111\112\105\101\114\46\108\117\97\34\44\32\116\114\117\101\41\41\40\41\10")() 
+    end)
+ 
+    MainSection:NewToggle("Speed", "go fast and jump high", function(state)
+        if state then
+            game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 120
+            game.Players.LocalPlayer.Character.Humanoid.JumpPower = 120
+        else
+            game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+            game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
+        end
+    end)
